@@ -118,7 +118,7 @@ function createCash() {
 }
 
 function createDiamonds() {
-  if (World.frameCount % 120 == 0) {
+  if (World.frameCount % 135 == 0) {
   var diamonds = createSprite(Math.round(random(50, 350),40, 10, 10));
   diamonds.addImage(diamondsImg);
   diamonds.scale=0.03;
